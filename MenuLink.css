@@ -1,0 +1,56 @@
+@font-face {font-family: NanumSquare_acR; src: url('./fonts/NanumSquare_acR.ttf');}
+@font-face {font-family: dovemayo; src: url('./fonts/dovemayo.otf');}
+
+#mdiv {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+#mdiv_sub_menu {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  clear: both;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* make scrollbar transparent */
+}
+
+ul {
+  padding-left: 0.2em;
+}
+ul li {
+  display: inline;
+  padding: 0 0.5em;
+}
+
+.menu_link_li_style {
+  color: #666;
+  font-family : "dovemayo";
+  transition: color 500ms;
+}
+.menu_link_li_style:visited {
+  font-weight: bolder;
+  color: #aaa;
+}
+.menu_link_li_style:hover {
+  font-weight: bold;
+  color: #ddd;
+}
+.menu_link_li_style:active {
+  font-size: 1.1em;
+}
+
+.menu_link_sub_li_style {
+  color : #ddd;
+  font-size:1em;
+  padding-left: 0;
+  font-family : "Malgun Gothic";
+}
+
+* {
+  user-select: none;
+}
